@@ -1,3 +1,20 @@
-#error{
-    color: red;
+body{
+    color: aliceblue;
+    background-color:  green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    color: #016f32;
+    background-color: goldenrod;
+    width: 150px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
 }

@@ -2,14 +2,18 @@
 <html>
 	<head>
 		<title>Online Shopping</title>
+        <h1>Blackjack</h1>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/style.css">
 	</head>
 	<body>
-		<img id="img1" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6e8d88e0-ca90-4ea4-a7ea-5508c2ef03fe/air-presto-hello-kitty-shoes-Nm5Dd5.png" alt="Nike Shoe" width="300px" height="300px" />
-        <button onclick="buy()">$150 Buy Now</button>
-        <p id="error"></p>
+        
+        <p id="msg">Want to play a round??</p>
+		<p id="card">Cards : </p>
+        <p id="sum">Sum : </p>
+        <button id="btn" onclick="startGame()" >START GAME</button>
+		<button id="newc" onclick="newCard()">NEW CARD</button>
         <script src="/script.js"></script>
 	</body>
 </html>
